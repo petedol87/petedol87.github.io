@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- insert fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+    <!-- include font-awesome -->
+    <script src="https://use.fontawesome.com/9bbf287de8.js"></script>
+    <!-- include jQuery & Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <!-- include external css -->
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+
+  <body>
+      <!-- navbar -->
+      <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse fixed-top">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand navbarLogo" href="#">&#62;Petros Dolianitis&#60;</a>
+        <div class="collapse navbar-collapse text-right" id="navbarMenu">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link page-scroll" href="#aboutMe">About me</a></li>
+            <li class="nav-item"><a class="nav-link page-scroll" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link page-scroll" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- end navbar -->
+
+    <div class="container">
+      <!-- top -->
+      <div id="top" class="text-center mt-5 mt-lg-0">
+        <h1><span class="logoStyle">&#62;Petros Dolianitis&#60;</span><br/><br/><small><code class="text-muted small">&#160;/* full stack web developer */&#160;</code></small></h1>
+        <h4 class="text-left">
+          <div class="row justify-content-around">
+            <div class="col-md-6 col-lg-3">
+              <dl>
+                <dt>Front-end development</dt>
+              </dl>
+              <div class="row">
+                <div class="col">
+                  <dl>
+                    <dd>&#62; HTML<sub>5</sub></dd>
+                    <dd>&#62; JavaScript</dd>
+                    <dd>&#62; Bootstrap</dd>
+                    <dd>&#62; React</dd>
+                  </dl>
+                </div>
+                <div class="col">
+                  <dl>
+                    <dd>&#62; CSS<sub>3</sub></dd>
+                    <dd>&#62; jQuery</dd>
+                    <dd>&#62; Sass</dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <dl>
+                <dt>Back-end development</dt>
+              </dl>
+              <dl>
+                <dd>&#62; Node.js</dd>
+              </dl>
+            </div>
+          </div>
+        </h4>
+      </div>
+      <!-- end top -->
+      <hr/>
+
+      <!-- About me -->
+      <div id="aboutMe" class="mt-5 mt-lg-0 p-top">
+        <h2 class="text-center">About me</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <p class="p-top">I am a <strong>junior-level</strong> developer, full of enthusiasm while changing career from Musician and seeking entry in Web Development. I have a Bachelor's degree in <strong>Computer Science and Biomedical Informatics</strong> (University of Thessaly, Greece), and I am currently working with the latest web &amp; mobile technologies, sharpening my skills in <strong>front-end</strong> and <strong>back-end</strong> development.</p>
+            <p>My <strong>hands-on experience</strong> varies from small side-projects to large-scale applications.</p>
+            <hr/>
+            <p><em>(they say)</em> I am:<br/>
+              <i class="fa fa-check-square-o" aria-hidden="true"></i> <strong>Adaptable</strong> - <em>I have worked in many different fields and work environments</em><br/>
+              <i class="fa fa-check-square-o" aria-hidden="true"></i> <strong>Organized</strong> - <em>I like putting things (and code) in order</em><br/>
+              <i class="fa fa-check-square-o" aria-hidden="true"></i> <strong>Teamworking</strong> - <em>I have been a team-member since I remember myself</em><br/>
+              <i class="fa fa-check-square-o" aria-hidden="true"></i> <strong>Lover of lifelong learning</strong> - <em>life after all is about change and evolution</em>
+            </p>
+          </div>
+        </div>
+        <div class="text-center">
+          <img src="images/laptop-lenovo-yoga-900-side.jpg" class="img-fluid">
+        </div>
+      </div>
+      <!-- end About me -->
+      <hr/>
+
+      <!-- Portfolio -->
+      <div id="portfolio" class="mt-5 mt-lg-0 p-top">
+        <h2 class="text-center">Portfolio</h2>
+
+        <div id="globalCard" class="card">
+
+          <!-- tabs navigation -->
+          <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active noDecoration" data-toggle="tab" href="#freeCodeCampPane" role="tab">freeCodeCamp projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link noDecoration" data-toggle="tab" href="#otherPane" role="tab">Other projects</a>
+              </li>
+            </ul>
+          </div>
+          <!-- end tabs navigation -->
+
+          <!-- tab panes -->
+          <div class="tab-content">
+
+            <div class="tab-pane active fade show" id="freeCodeCampPane" role="tabpanel">
+              <div class="card-block">
+                <div class="row justify-content-around">
+                  <div id="localWeatherApp" class="col-md-4">
+                    <a href="https://codepen.io/petedol87/full/MmdOQG/" target="_blank">
+                      <div class="card">
+                        <img class="card-img-top img-fluid" src="images/local-weather.png" alt="Screenshot of Local Weather app">
+                        <div class="card-block noDecoration">
+                          <h5 class="card-title">Local Weather App</h5>
+                          <p class="card-text">A responsive weather application which finds the user's current location and shows current weather data and forecast for the next 7 days.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div id="wikipediaViewer" class="col-md-4">
+                    <a href="https://codepen.io/petedol87/full/rwNgKg/" target="_blank">
+                      <div class="card">
+                        <img class="card-img-top img-fluid" src="images/wikipedia-viewer.png" alt="Screenshot of Wikipedia Viewer app">
+                        <div class="card-block noDecoration">
+                          <h5 class="card-title">Wikipedia Viewer</h5>
+                          <p class="card-text">A single search page which shows the first 10 Wikipedia results for the user input or, alternatively, a random Wikipedia article.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div id="randomQuoteMachine" class="col-md-4">
+                    <a href="https://codepen.io/petedol87/full/VbVPxx/" target="_blank">
+                      <div class="card">
+                        <img class="card-img-top img-fluid" src="images/random-quote-machine.png" alt="Screenshot of Random Quote Machine app">
+                        <div class="card-block noDecoration">
+                          <h5 class="card-title">Random Quote Machine</h5>
+                          <p class="card-text">An application that shows random quotes every time the button is clicked. It also gives the user the opportunity to immediately Tweet the quote.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div id="theyTwitch" class="col-md-4">
+                    <a href="https://codepen.io/petedol87/full/VWjJQN/" target="_blank">
+                      <div class="card">
+                        <img class="card-img-top img-fluid" src="images/they-twitch.png" alt="Screenshot of theyTwitch app">
+                        <div class="card-block noDecoration">
+                          <h5 class="card-title">theyTwitch</h5>
+                          <p class="card-text">An application that shows which of the Twitch users (from a specified group) is currently online streaming.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div> <!-- end .row -->
+              </div>
+            </div> <!-- end #freeCodeCampPane -->
+
+            <div class="tab-pane fade" id="otherPane" role="tabpanel">
+              <div class="card-block">
+                <div class="row justify-content-around">
+                  <div class="col-md-4">
+                    <a>
+                      <div class="card text-center">
+                        <img class="card-img-top img-fluid" src="http://placehold.it/300x200" alt="Screenshot of Project #2">
+                        <div class="card-block noDecoration">
+                          <h5 class="card-title">Project #1</h5>
+                          <p class="card-text">Currently unavailable.</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card text-center">
+                      <img class="card-img-top img-fluid" src="http://placehold.it/300x200" alt="Screenshot of Project #2">
+                      <div class="card-block">
+                        <h5 class="card-title">Project #2</h5>
+                        <p class="card-text">Currently unavailable.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div> <!-- end .row -->
+              </div>
+            </div> <!-- end #otherPane -->
+
+          </div> <!-- end tab panes -->
+        </div> <!-- end #globalCard -->
+      </div>  <!-- end #portfolio -->
+      <hr/>
+
+      <!-- Contact -->
+      <div id="contact" class="mt-5 mt-lg-0 p-top">
+        <h2 class="text-center">Contact</h2>
+        <div class="row justify-content-around p-top">
+          <div class="col-md-6">
+            <h3 class="text-center">Send an e-mail</h3>
+            <form class="mb-5 mb-md-0" action="mailto:petrosdolianitis@gmail.com" method="post" enctype="text/plain">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Your name">
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" class="form-control" id="email" placeholder="Your e-mail address">
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" rows="5" id="message" placeholder="Your message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-secondary"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Send</button>
+              <button type="reset" class="btn btn-secondary" data-toggle="tooltip" title="Reset all"><i class="fa fa-repeat" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+          <div class="col-md-2 text-center">
+            <h3>Social media</h3><br/>
+            <a class="fa-stack fa-2x noDecoration" href="https://www.linkedin.com/in/petros-dolianitis/" target="_blank" data-toggle="tooltip" title="LinkedIn">
+              <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+              <i class="fa fa-linkedin fa-stack-1x fa-inverse" aria-hidden="true"></i>
+            </a><br/><br/>
+            <a class="fa-stack fa-2x noDecoration" href="https://www.facebook.com/petrosdolianitis" target="_blank" data-toggle="tooltip" title="facebook">
+              <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+              <i class="fa fa-facebook fa-stack-1x fa-inverse" aria-hidden="true"></i>
+            </a><br/><br/>
+            <a class="fa-stack fa-2x noDecoration" href="https://github.com/petedol87" target="_blank" data-toggle="tooltip" title="GitHub">
+              <i class="fa fa-github fa-stack-2x" aria-hidden="true"></i>
+            </a><br/><br/>
+            <a class="fa-stack fa-2x noDecoration" href="https://www.freecodecamp.com/petedol87" target="_blank" data-toggle="tooltip" title="freeCodeCamp">
+              <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+              <i class="fa fa-free-code-camp fa-stack-1x fa-inverse" aria-hidden="true"></i>
+            </a><br/><br/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container-fluid text-center">
+        designed by <a id="myLogoSmall" href="#"> &#62;Petros Dolianitis&#60;</a>
+      </div>
+    </footer>
+
+  </body>
+</html>
