@@ -59,10 +59,10 @@ h2, h3, h4 {
   color: #000000;
 }
 
+a[title="LinkedIn"]:hover { color: #0e76a8 }
 
-/* just for design purposes */
+a[title="facebook"]:hover { color: #3b5998 }
 
-.border {
-  border: solid;
-}
+a[title="GitHub"]:hover { color: #4a4949 }
 
+a[title="freeCodeCamp"]:hover { color: #006400 }
