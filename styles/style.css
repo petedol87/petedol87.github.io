@@ -51,13 +51,13 @@ h2, h3, h4 {
   margin-top: 15%;
 }
 
-#myLogoSmall {
-  font-family: 'Ubuntu Condensed', sans-serif;
-  font-weight: bold;
-  letter-spacing: 3px;
-  text-decoration: none;
-  color: #000000;
-}
+    .footer a {
+        font-family: 'Ubuntu Condensed', sans-serif;
+        font-weight: bold;
+        letter-spacing: 3px;
+        text-decoration: none;
+        color: #000000;
+    }
 
 a[title="LinkedIn"]:hover { color: #0e76a8 }
 
