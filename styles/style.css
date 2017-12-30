@@ -70,3 +70,10 @@ a[title="facebook"]:hover { color: #3b5998 }
 a[title="GitHub"]:hover { color: #4a4949 }
 
 a[title="freeCodeCamp"]:hover { color: #006400 }
+
+@media (min-width: 768px) {
+    .backend {
+        padding-top: 0;
+        text-align: right;
+    }
+}
